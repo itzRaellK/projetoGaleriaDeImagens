@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Trabalhando com jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de imagens</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" id="endereco-imagem-nova" required placeholder="URL da imagem"/>
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="images/inktober day1.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day1.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day2.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day2.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day3.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day3.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day4.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day4.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day5.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day5.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day6.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day6.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day7.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day7.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day8.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day8.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day9.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day9.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day10.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day10.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day11.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day11.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day12.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day12.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day13.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day13.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day14.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day14.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day15.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day15.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day16.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day16.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day17.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day17.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day18.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day18.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day19.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day19.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day20.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day20.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="images/inktober day21.jpg">
+            <div class="overlay-imagem-link">
+                <a href="images/inktober day21.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
